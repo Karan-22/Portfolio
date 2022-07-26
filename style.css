@@ -1,0 +1,286 @@
+body{
+    margin:0;
+    /* font-family: 'Cutive Mono', monospace; */
+    font-family: 'Inter', sans-serif;
+    font-size:20px;
+    background-color: #FBF3E4;
+}
+
+h1{
+    margin:0;
+    text-align: center;
+
+}
+
+/* header & navbar starts */
+
+.header{
+    background-color:#FBF3E4;
+    height:100px;
+    width:100%;
+}
+
+.navbar h2{
+    color:#09BEAD;
+    font-size:50px;
+    margin:5px;
+    margin-left: 25px;
+    padding:15px;
+    float:left;
+}
+
+.navbar .content{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    font-size: 20px;
+    justify-content: flex-end;
+}
+
+.navbar li i{
+    font-size: 18px;
+}
+
+.navbar li{
+    margin-left:22px;
+    padding:25px;
+    text-decoration:none;
+    list-style: none;
+    color:black;
+    cursor:pointer;
+
+}
+
+.navbar li:hover{
+    border-radius: 20%;
+    background-color: #09BEAD;
+    font-size:22px;
+}
+
+/* navbar ends */
+
+/* first div starts */
+
+.first{
+    margin:0;
+    width:100%;
+    height:500px;
+    background-color:#09BEAD;
+}
+
+.first img{
+    margin-top:25px;
+    margin-right:55px;
+    float:right;
+}
+
+.first .content {
+    /* margin-left: 200px; */
+    padding:50px;
+}
+
+.first .content h1{
+    text-align: left;
+    font-size: 45px;
+    color:#FBF3E4;
+}
+
+.first .content p{
+    font-size: 30px;
+    color:#FBF3E4;
+    width:50%;
+}
+
+.first .content button{
+    font-family: 'Cutive Mono', monospace;
+    text-align: center;
+    padding:15px 32px;
+    width:auto;
+    background-color: #FBF3E4;
+    font-size: 20px;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.first .content input{
+    border:none;
+    border-radius: 5px;
+    color:black;
+    background-color:#FBF3E4;
+    padding:15px 32px;
+    font-size: 16px;
+    width:25%;
+
+}
+
+/* first div ends */
+
+/* container css */
+
+.container{
+    
+    height:800px;
+    width:100%;
+}
+
+.container1{
+    background-color:#FBF3E4;
+    height:500px;
+}
+
+.container2{
+    background-color:#09BEAD;
+
+}
+
+.container2 .box{
+    /* border:1px solid black;  */
+    text-align: left;
+    color:#FBF3E4;
+}
+
+.container2 .box dl{
+    padding:10px;
+}   
+
+
+.container2 .box dt{
+    padding:20px;
+}
+
+.container1 h1{
+    color:#09BEAD;
+}
+
+.container2 h1{
+    color:#FBF3E4;
+}
+
+.container3 h1{
+    color:#09BEAD;
+}
+
+.container2 h3{
+    padding:10px;
+    width:20%;
+    /* border-bottom:1px solid black;    */
+ 
+}
+
+/* container property ends */
+
+.box{
+    width:75%;
+    text-align: center;
+    padding:25px;
+    margin:auto;
+    /* border:1px solid black; */
+}
+
+.box .box1_1{
+    
+    /* border:1px solid black;  */
+    text-align: center;
+    padding:20px;
+    margin:20px;
+    /* float:right;        */
+}
+
+.box .box1_1 img{
+    padding:20px;
+    display:inline-block;         
+}
+
+/* .box img{
+    /* float:center; 
+}
+    */
+
+.box3{
+    font-size:22px;
+    display: inline-block;
+    /* border:1px solid black; */
+    width:50%;
+}
+
+.resume-guy{
+    float:right;
+    height: 50vh;
+    
+}
+
+.container3 .box{
+    height:600px;
+    margin: auto;
+    font-size: 16px;
+    /* text-align: left; */
+    /* border:1px solid black; */
+}
+
+.form{
+    text-align: center;
+    padding:10px;
+    height:500px;
+    /* border:1px solid black; */
+    width:50%;
+    float:left;
+}
+
+.contact2{
+    padding:10px;
+    height:500px;
+    /* border:1px solid black; */
+}
+
+.lets{
+    padding:20px;
+    text-align: center;
+}
+
+.lets i{
+    padding:5px;
+    display: block;
+}
+
+
+.form input{
+    padding:10px;
+    width:60%;
+}
+
+label{
+    /* align-items:baseline; */
+    display: flex;
+    flex-direction: row;
+    /* text-align: right; */
+
+}
+
+.form button{
+    font-family: 'Cutive Mono', monospace;
+    text-align: center;
+    padding:10px;
+    width:auto;
+    background-color:#09BEAD;
+    font-size: 20px;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+}   
+
+.form span{
+    color:red;
+}
+
+.footer{
+    text-align:center;
+    background-color: #09BEAD;
+    width:100%;
+    height:100px;
+}
+
+.footer h4{
+    padding:10px;
+    color:#FBF3E4;
+}
